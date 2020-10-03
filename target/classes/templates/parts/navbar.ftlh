@@ -14,6 +14,10 @@
             </li>
             <li class="nav-item">
                 <a class="nav-link" href="/main">Объективные новости</a>
+            </li>
+            <li>
+                <a class="nav-link" href="/teachers">Рейтинги преподавателей</a>
+            </li>
             <#if isAdmin>
             <li class="nav-item">
                 <a class="nav-link" href="/user">User list</a>

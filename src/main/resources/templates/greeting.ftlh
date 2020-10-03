@@ -3,6 +3,8 @@
 <#include "parts/navbar.ftlh">
 <br>
 <br>
-<h3>Привет, Пользователь</h3>
-<p>	&#169;Команда разработчиков в количестве двух <a class="authorities">человек</a></p>
+<div class="container">
+        <h3>Привет, Пользователь</h3>
+        <p>	&#169;Команда разработчиков в количестве двух <a class="authorities">человек</a></p>
+</div>
 </@c.page>

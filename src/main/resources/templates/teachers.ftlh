@@ -14,11 +14,10 @@
     <title>Список преподавателей</title>
 </head>
 <body>
-
-<form action="/logout" method="post">
-    <input type="submit" value="Sign Out"/>
-    <input type="hidden" name="_csrf" value="${_csrf.token}">
-</form>
+<#include "parts/navbar.ftlh">
+<br>
+<br>
+<br>
 
 <div class="container-fluid">
     <div class="row">
@@ -36,8 +35,8 @@
             <ul class="elastic" id="cont0">
                 <!--                вот тут список преподов         -->
                 <#list teachers as teacher>
-                <li class="shadow p-2 mb-2 bg-white rounded"><a href="/user/${teacher.id}">${teacher.username}</a></li>
-            </#list>
+                <li class="shadow p-2 mb-2 bg-white rounded"><a href="/teachers/${teacher.id}">${teacher.teachername}</a></li>
+                </#list>
             </ul>
         </div>
 
