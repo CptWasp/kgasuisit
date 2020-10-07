@@ -53,22 +53,26 @@
             <p class="rat-header">Оставить оценку</p>
         </div>
         <div class="col-lg-9 col-md-9 col-sm-12 col-12">
-            <form method="post">
-                <div class="form-group row">
-                    <label for="range_01" class="col-sm-2 control-label"><b>Оставьте оценку преподавателю</b></label>
+
+            <div class="shadow p-3 mb-4 bg-white rounded">
+            <!--            =========           -->
+            <form method="post" action="/teachers">
+                <div class="form-group">
                     <div class="col-6">
-                        <input type="text" id="range_01">
+                        <input name="rating" type="text" id="range_01">
                     </div>
                 </div>
+                <div class="form-group">
+                    <textarea class="form-control" name="ratingmessage" placeholder="Добавьте свой собственный отзыв" class="rat-area"></textarea>
+                </div>
+                <input type="hidden" value="${teacher.id}" name="teacherId">
+                <input type="hidden" name="_csrf" value="${_csrf.token}">
+                <div class="form-group">
+                    <button class="btn btn-primary" type="submit">Оставить отзыв</button>
+                </div>
             </form>
-            <script>
-                      $(document).ready(function () {
-                            $("#range_01").ionRangeSlider({
-                                 min: 1,
-                                 max: 5
-                            });
-                        });
-                  </script>
+            <!--            =========           -->
+            </div>
         </div>
     </div>
 </div>
@@ -83,25 +87,37 @@
         <div class="col-lg-9 col-md-9 col-sm-12 col-12 mt-4">
             <br>
             <div class="rat-container">
-                <p class="shadow-lg p-3 mb-4 bg-white rounded rat-rating">Пример отзыва: Отличный преподаватель, все хорошо объясняет</p>
-                <p class="shadow-lg p-3 mb-4 bg-white rounded rat-rating">Пример отзыва: Суперский преподаватель, все подробно показывает и прекрасно объяснет объясняет</p>
+                <#list ratings as rating>
+                <p class="shadow-lg p-3 mb-4 bg-white rounded rat-rating">${rating.message}</p>
+                </#list>
             </div>
 
 
 
-            <textarea class="form-control" placeholder="Введите отзыв каким бы он ни был" class="rat-area"></textarea>
-            <button id="buton-ehh" class="btn btn-sm mt-4 btn-primary" type="button">Оставить отзыв</button><br><br><br>
+
         </div>
     </div>
 </div>
 
+
+
+
+
+
+
+
+
+
+
+
 <script>
-        $(document).ready(function(){
-            $("#buton-ehh").on("click", function(){
-                alert("К сожалению на данный момент Вы не можете оставить отзыв, эта функция находится на этапе разработки. Информация будет размещена в разделе 'Новости'");
-            });
-        });
-      </script>
+                      $(document).ready(function () {
+                            $("#range_01").ionRangeSlider({
+                                 min: 1,
+                                 max: 5
+                            });
+                        });
+</script>
 
 
 

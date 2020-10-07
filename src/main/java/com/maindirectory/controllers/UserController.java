@@ -35,7 +35,7 @@ public class UserController {
     @GetMapping("{user}")
     public String userEditForm(@PathVariable User user, Model model){
 
-        model.addAttribute("user", user);
+        model.addAttribute("usr", user);
         model.addAttribute("roles", Role.values());
         return "userEdit";
     }
