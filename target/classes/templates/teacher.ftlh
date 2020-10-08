@@ -17,7 +17,6 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
 
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;300;400;700&display=swap" rel="stylesheet">
 
     <script src="https://use.fontawesome.com/3dff3e57e3.js"></script>
     <title>Отзывы о ${teacher.teachername}</title>
@@ -88,7 +87,7 @@
             <br>
             <div class="rat-container">
                 <#list ratings as rating>
-                <p class="shadow-lg p-3 mb-4 bg-white rounded rat-rating">${rating.message}</p>
+                <p class="shadow-lg p-3 mb-4 bg-white rounded rat-rating">${rating.message} <br><span class="text-muted">${rating.author}</span></p>
                 </#list>
             </div>
 
@@ -139,9 +138,7 @@
             font-family: 'Raleway', sans-serif;
             font-weight: 600;
         }
-        *{
-            font-family: 'Raleway', sans-serif;
-        }
+
         div{
 /*            border: 1px solid red;*/
         }

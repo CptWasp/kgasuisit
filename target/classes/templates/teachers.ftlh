@@ -70,7 +70,7 @@
 
          document.querySelector('#inptval').oninput = function(){
              let val = this.value.trim();
-             let elasticItems = document.querySelectorAll('.elastic li');
+             let elasticItems = document.querySelectorAll('.elastic a');
 
              if(val!=''){
                  elasticItems.forEach(function(elem){
