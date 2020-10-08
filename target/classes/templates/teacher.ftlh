@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="https://bootstraptema.ru/plugins/2018/irs/ion.rangeSlider.skin.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <script src="https://bootstraptema.ru/plugins/2018/irs/ion.rangeSlider.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
 
 
 
@@ -27,12 +28,13 @@
 <br>
 
 
+
 <div class="container">
     <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-12 col-12 mt-4">
             <div class="img-ava" style="background-image: url(${teacher.imglink});"></div>
             <br>
-            <p class="ava-rating"><i class="fa fa-star"></i> Рейтинг: ${middle}/5.0</p>
+            <p class="ava-rating"><i class="fa fa-star"></i> Рейтинг: ${middle}/5,0</p>
 
             <p class="ava-rating"><i class="fa fa-bar-chart" aria-hidden="true"></i> Оставлено отзывов: ${count}</p>
         </div>
@@ -87,7 +89,7 @@
             <br>
             <div class="rat-container">
                 <#list ratings as rating>
-                <p class="shadow-lg p-3 mb-4 bg-white rounded rat-rating">${rating.message} <br><span class="text-muted">${rating.author}</span></p>
+                <p class="shadow-lg p-3 mb-4 bg-white rounded rat-rating">${rating.message}</p>
                 </#list>
             </div>
 
@@ -123,6 +125,9 @@
 
 
 <style>
+        *{
+                font-family: 'Ubuntu Mono', monospace;
+            }
         .ava-profile{
             font-weight: 700;
             font-size: 2em;
@@ -131,11 +136,9 @@
             width: 100%;
         }
         .rat-header{
-            font-family: 'Raleway', sans-serif;
             font-weight: 600;
         }
         .ava-rating{
-            font-family: 'Raleway', sans-serif;
             font-weight: 600;
         }
 
