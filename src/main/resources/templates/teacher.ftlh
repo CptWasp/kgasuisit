@@ -33,9 +33,9 @@
         <div class="col-lg-3 col-md-3 col-sm-12 col-12 mt-4">
             <div class="img-ava" style="background-image: url(${teacher.imglink});"></div>
             <br>
-            <p class="ava-rating"><i class="fa fa-star"></i> Рейтинг: ${teacher.rating}/5.0</p>
+            <p class="ava-rating"><i class="fa fa-star"></i> Рейтинг: ${middle}/5.0</p>
 
-            <p class="ava-rating"><i class="fa fa-bar-chart" aria-hidden="true"></i> Оставлено отзывов: 3289</p>
+            <p class="ava-rating"><i class="fa fa-bar-chart" aria-hidden="true"></i> Оставлено отзывов: ${count}</p>
         </div>
 
         <div class="col-lg-9 col-md-9 col-sm-12 col-12 ava-information mt-4 pt-4">
