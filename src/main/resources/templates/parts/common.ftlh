@@ -16,17 +16,10 @@
 </head>
 <body>
 <div class="popub-block">
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
     <a href="https://www.instagram.com/blrmyfc/">backend/frontend: Айзат Ашрафуллин</a>
     <br>
     <a href="https://www.instagram.com/almaz.khadiev/">designer: Алмаз Хадиев</a>
 </div>
-
 
 
 <#nested>
@@ -41,7 +34,7 @@
         opacity: 0.8;
         color: #fff;
         display: none;
-        position: absolute;
+        position: fixed;
         z-index: 90;
     }
 
@@ -69,6 +62,9 @@
         text-decoration: none;
     }
     .popub-block a{
+        position: absolute;
+        margin-top: 20%;
+        font-size: 16pt;
         margin-left: 35%;
         color: #1ED700;
         z-index: 91;

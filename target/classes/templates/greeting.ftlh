@@ -2,7 +2,6 @@
 <@c.page>
 <#include "parts/navbar.ftlh">
 
-
 <!--хедер-->
 <div class="mt-3 container-fluid bg-black shadow">
         <div class="row justify-content-center">
@@ -22,6 +21,8 @@
 <br>
 <br>
 <br>
+
+
 
 
 <!--центр-->
@@ -62,39 +63,17 @@
         </div>
 </div>
 
-<script>
-        $(document).ready(function(){
 
-
-
-
-
-
-            var typed = new Typed('.texted-will-be', {
-                strings: ["@^1000", "@Ovettdr", "Override", "@Override"],
-                typeSpeed: 90,
-                backSpeed: 50,
-            });
-
-
-            var typed2 = new Typed('.texted-will-be-second', {
-                strings: ["^7000public boolean^1000 isAccountNonLocked^1000<span class='paths'> () {</span>  return true^800 <span class='paths'>; }</span>",
-                "public boolean^1000 isCredentialsNonExpired^1000<span class='paths'> () {</span>  return^800 true^800 <span class='paths'>; }</span>",
-                "public boolean^1000 isEnabled^1000<span class='paths'> () {</span>  return^900 <span class='paths'>isActive(); }</span>"],
-                typeSpeed: 90,
-                backSpeed: 50
-            });
-
-
-
-
-
-        });
-</script>
 <br>
 <br>
 <br>
 <br>
+
+<div class="popub-block">
+        <a href="https://www.instagram.com/blrmyfc/">backend/frontend: Айзат Ашрафуллин</a>
+        <br>
+        <a href="https://www.instagram.com/almaz.khadiev/">designer: Алмаз Хадиев</a>
+</div>
 
 
 <!--футер-->
@@ -104,11 +83,9 @@
         <br>
         <br>
 
-        <p>	&#169;Команда разработчиков в количестве двух <a class="authorities">человек</a></p>
+        <center><p>	&#169;Команда разработчиков в количестве двух <a class="authorities">человек</a></p></center>
 </div>
-
 <script>
-    $(document).ready(function(){
         var vissibl = false;
 
         $(".authorities").on("click", function(){
@@ -119,13 +96,35 @@
             $(".popub-block").css("display", "none");
             vissibl=false;
         });
-
-
-
-
-    });
-
 </script>
+<script>
+        $(document).ready(function(){
+
+            var typed = new Typed('.texted-will-be', {
+                strings: ["@^1000", "@Ovettdr", "Override", "<a class='entitys molor' href='#'>@Override</a>"],
+                typeSpeed: 90,
+                backSpeed: 50,
+                callback: function(){
+                        $(".typed-cursor").css("display", "none");
+                }
+            });
+
+
+            var typed2 = new Typed('.texted-will-be-second', {
+                strings: ["^8000public boolean^1000 isAccountNonLocked^1000<span class='paths'> () {</span>  return true^800<span class='paths'>; }</span>",
+                "public boolean^1000 isCredentialsNonExpired^1000<span class='paths'> () {</span>  return^800 true^800<span class='paths'>; }</span>",
+                "public boolean^1000 isEnabled^1000<span class='paths'> () {</span>  return^900<span class='paths'>isActive(); }</span>"],
+                typeSpeed: 90,
+                backSpeed: 50
+            });
+
+
+
+
+
+        });
+</script>
+
 
 <style>
         .code-light-theme p{
@@ -140,13 +139,20 @@
                 color: #000;
         }
         .entitys{
-                color: #CB981B
+                color: #CB981B;
         }
         .strings{
                 color: #067D17;
         }
         .collects{
                 color: #871094;
+        }
+        .molor:hover{
+                background: #A6D2FF;
+                transition-duration: 0.6s;
+                padding: 3px;
+                color: #CB981B;
+                text-decoration: none;
         }
 </style>
 
