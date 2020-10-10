@@ -8,6 +8,7 @@ public class RatingList {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
+    @Column (length = 2000)
     private String message;
     private Double rating;
 

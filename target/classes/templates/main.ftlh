@@ -24,7 +24,7 @@
                             <label class="custom-file-label" for="customFile">Выбрать файл</label>
                         </div>
                     </div>
-                    <!--                <input type="text" name="tag" placeholder="tag">-->
+                    <input type="hidden" name="tag" placeholder="tag">
                     <input type="hidden" name="_csrf" value="${_csrf.token}">
                     <div class="form-group">
                         <center><button class="btn btn-primary" type="submit">Добавить</button></center>

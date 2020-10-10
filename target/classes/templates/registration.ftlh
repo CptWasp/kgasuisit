@@ -4,7 +4,6 @@
 
 <@c.page>
 
-${message!}
 <div class="row justify-content-center">
     <div class="col-10 col-sm-10 col-md-6 col-lg-5">
 <@l.login "/registration" true/>
