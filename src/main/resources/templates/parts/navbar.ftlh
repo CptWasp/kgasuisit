@@ -47,6 +47,9 @@
     .navbar-dark{
         background: #000;
     }
+    nav{
+        opacity: 1;
+    }
 </style>
 <br>
 <br>

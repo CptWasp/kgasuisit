@@ -46,13 +46,13 @@ public class UserService implements UserDetailsService {
         if(!StringUtils.isEmpty(user.getEmail())){
             String message = String.format("Приветствую, %s!\n" +
                     "Добро пожаловать на наш скромный сайт. Для активации перейди по ссылке: \n" +
-                    "http://localhost:8080/activate/%s", user.getUsername(), user.getActivationCode());
+                    "<a href='http://localhost:8080/activate/%s'>Ссылка</a>", user.getUsername(), user.getActivationCode());
 
 
 
 
 
-            mailSender.send(user.getEmail(), "Активация аккаунта", message);
+            mailSender.send(user.getEmail(), "Регистрация на сайте", message);
         }
 
 
