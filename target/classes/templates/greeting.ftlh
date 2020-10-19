@@ -7,7 +7,7 @@
         <div class="row justify-content-center">
                 <div class="pt-3 pb-3 col-lg-5 col-md-5 col-sm-12 col-12">
                         <h1 class="mt-5 brand-style">#news</h1>
-                        <p class="second-brand-style">Сайт ИСИТа в процессе создания, функции будут дополняться, а дизайн сайта возможно поменятеся. Зато сейчас вы можете оставлять анонимные отзывы преподавателям.</p>
+                        <p class="second-brand-style">Сайт ИСИТа в процессе создания, функции будут дополняться, а дизайн сайта возможно поменяется. Зато сейчас вы можете оставлять анонимные отзывы преподавателям.</p>
                 </div>
 
 
@@ -79,7 +79,7 @@
         <br>
         <br>
 
-        <center><p>	&#169;Команда разработчиков в количестве двух <a class="authorities">человек</a></p></center>
+        <center><p>	&#169;Команда разработчиков в количестве одной <a class="authorities">персоны</a></p></center>
 </div>
 <script>
         var vissibl = false;

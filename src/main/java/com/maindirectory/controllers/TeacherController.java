@@ -40,7 +40,7 @@ public class TeacherController {
         JSONParser parser = new JSONParser();
 
         try {
-            JSONArray a = (JSONArray) parser.parse(new FileReader(".\\jsons\\notesJson"+num+".json"));
+            JSONArray a = (JSONArray) parser.parse(new FileReader("./jsons/notesJson"+num+".json"));
 
             for (Object o : a)
             {

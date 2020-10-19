@@ -16,9 +16,8 @@
 </head>
 <body>
 <div class="popub-block">
-    <a href="https://www.instagram.com/blrmyfc/">backend/frontend: Айзат Ашрафуллин</a>
-    <br>
-    <a href="https://www.instagram.com/almaz.khadiev/">designer: Алмаз Хадиев</a>
+    <a href="https://www.instagram.com/blrmyfc/">designer/backend/frontend: Айзат Ашрафуллин</a>
+
 </div>
 
 
