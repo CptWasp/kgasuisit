@@ -2,14 +2,20 @@
 
 
 <@c.page>
+<br>
+<br>
 ${message!}
+<br>
 
 
-<div class="container">
+<div class="container my-4">
     <div class="row justify-content-center">
-        <div class="col-10 col-sm-10 col-md-6 col-lg-5">
+        <div class="col-12 col-sm-12 col-md-8 col-lg-8">
 
-            <h5>${username}</h5>
+            <center><h5>${username}</h5></center>
+            <br>
+            <br>
+            <br>
 
             <form class="shadow-lg p-3 mb-5 bg-white rounded pt-5 pb-5" method="post">
                 <div class="form-group">

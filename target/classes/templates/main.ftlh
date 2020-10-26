@@ -12,11 +12,16 @@
         <button class="btn btn-light dropdown-toggle" type="button" id="dropdownMenu2" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Добавить запись
         </button>
-        <div class="dropdown-menu p-4" aria-labelledby="dropdownMenuButton">
+        <div class="<#if message??>show</#if> dropdown-menu p-4" aria-labelledby="dropdownMenuButton">
             <div class="form-group">
                 <form method="post" enctype="multipart/form-data">
                     <div class="form-group">
-                        <input type="text" class="form-control" name="text" placeholder="Текст введите Вы">
+                        <input type="text" class="form-control ${(textError??)?string('is-invalid', '')}" value="<#if message??>${message.text}</#if>" name="text" placeholder="Текст введите Вы">
+                        <#if textError??>
+                        <div class="invalid-feedback">
+                            ${textError}
+                        </div>
+                        </#if>
                     </div>
                     <div class="form-group">
                         <div class="custom-file">
