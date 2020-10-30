@@ -15,7 +15,9 @@ import org.springframework.web.bind.annotation.RequestParam;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
+import java.util.List;
 import java.util.Map;
+import java.util.Optional;
 
 @Controller
 public class TeacherController {
@@ -71,6 +73,17 @@ public class TeacherController {
         return "teachersuploading";
     }
 
+
+
+    @GetMapping("/teacherupdate")
+    public String showUpdatableTeacherList(Map<String, Object> model){
+        Iterable<Teacher> teachers = teacherRepo.findAll();
+        model.put("teachers", teachers);
+
+        return "teachersuploading";
+    }
+
+
     @PostMapping("/teacherupdate")
     public String updateTeachersData(@RequestParam String num, Map<String, Object> model){
 
@@ -91,7 +104,11 @@ public class TeacherController {
                 String link = (String) person.get("link");
                 System.out.println(link);
 
-                Teacher teacher = new Teacher(name, link, 0.0);
+
+
+                Teacher teacher = teacherRepo.findByTeachername(name);
+
+                teacher.setImglink(link);
                 teacherRepo.save(teacher);
 
             }
