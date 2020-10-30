@@ -1,61 +1,5 @@
 [
   {
-    "name": "Хисамеева Лилия Рахимзяновна",
-    "link": "https://www.kgasu.ru/upload/iblock/913/khisameeva_liliya_rakhimzyanovna.jpg"
-  },
-  {
-    "name": "Хозин Вадим Григорьевич",
-    "link": "https://www.kgasu.ru/upload/iblock/332/khozin_vadim_grigorevich.jpg"
-  },
-  {
-    "name": "Хорьков Евгений Владимирович",
-    "link": "https://www.kgasu.ru/upload/iblock/af2/khorkov_evgenii_vladimirovich.jpg"
-  },
-  {
-    "name": "Хохряков Олег Викторович",
-    "link": "https://www.kgasu.ru/upload/iblock/43d/khokhryakov_oleg_viktorovich.jpg"
-  },
-  {
-    "name": "Хузиахметов Рустам Абдулганеевич",
-    "link": "https://www.kgasu.ru/upload/iblock/64c/khuziakhmetov_rustam_abdulganeevich.jpg"
-  },
-  {
-    "name": "Хузин Айрат Фаритович",
-    "link": "https://www.kgasu.ru/upload/iblock/774/khuzin_airat_faritovich.jpg"
-  },
-  {
-    "name": "Хусаинов Дамир Миннигалеевич",
-    "link": "https://www.kgasu.ru/upload/iblock/c91/khusainov_damir_minnigaleevich.jpg"
-  },
-  {
-    "name": "Чебинев Александр Иванович",
-    "link": "https://www.kgasu.ru/upload/iblock/aaf/chebinev_aleksandr_ivanovich.jpg"
-  },
-  {
-    "name": "Чебинева Елена Васильевна",
-    "link": "https://www.kgasu.ru/upload/iblock/d1a/chebineva_elena_vasilevna.jpg"
-  },
-  {
-    "name": "Чугунова Юлия Владимировна",
-    "link": "https://www.kgasu.ru/upload/iblock/c71/chugunova_yuliya_vladimirovna.jpg"
-  },
-  {
-    "name": "Шабалин Павел Леонидович",
-    "link": "https://www.kgasu.ru/upload/iblock/077/shabalin_pavel_leonidovich.jpg"
-  },
-  {
-    "name": "Шавалиева Наиля Мансуровна",
-    "link": "https://www.kgasu.ru/upload/iblock/c6c/shavalieva_nailya_mansurovna.jpg"
-  },
-  {
-    "name": "Шагиахметова Эльвира Илшатовна",
-    "link": "https://www.kgasu.ru/upload/iblock/d18/shagiakhmetova_yelvira_ilshatovna.jpg"
-  },
-  {
-    "name": "Шайхутдинов Тагир Флоресович",
-    "link": "https://www.kgasu.ru/upload/iblock/ece/shaikhutdinov_tagir_floresovich.jpg"
-  },
-  {
     "name": "Шакирзянов Рашит Аглеевич",
     "link": "https://www.kgasu.ru/upload/iblock/e53/shakirzyanov_rashit_agleevich.jpg"
   },
@@ -78,5 +22,57 @@
   {
     "name": "Шамсутов Рустем Ильшатович",
     "link": "https://www.kgasu.ru/upload/iblock/b5d/shamsutov_rustem_ilshatovich.jpg"
+  },
+  {
+    "name": "Шарафутдинова Анастасия Валерьевна",
+    "link": "https://www.kgasu.ru/upload/iblock/aca/sharafutdinova_anastasiya_valerevna.jpg"
+  },
+  {
+    "name": "Шарнин Леонид Михайлович",
+    "link": "https://www.kgasu.ru/upload/iblock/598/sharnin_leonid_mikhailovich.jpg"
+  },
+  {
+    "name": "Шелихов Николай Сергеевич",
+    "link": "https://www.kgasu.ru/upload/iblock/03d/shelikhov_nikolai_sergeevich.jpg"
+  },
+  {
+    "name": "Шешегова Ирина Геннадьевна",
+    "link": "https://www.kgasu.ru/upload/iblock/a0c/sheshegova_irina_gennadevna.jpg"
+  },
+  {
+    "name": "Шигабутдинов Феликс Галлямович",
+    "link": "https://www.kgasu.ru/upload/iblock/427/shigabutdinov_feliks_gallyamovich.jpg"
+  },
+  {
+    "name": "Шигапова Дания Калимулловна",
+    "link": "https://www.kgasu.ru/upload/iblock/912/shigapova_daniya_kalimullovna.jpg"
+  },
+  {
+    "name": "Шинкарев Вадим Васильевич",
+    "link": "https://www.kgasu.ru/upload/iblock/8e8/shinkarev_vadim_vasilevich.jpg"
+  },
+  {
+    "name": "Ширеева Диляра Галеевна",
+    "link": "https://www.kgasu.ru/upload/iblock/e02/shireeva_dilyara_galeevna.jpg"
+  },
+  {
+    "name": "Шмелев Геннадий Николаевич",
+    "link": "https://www.kgasu.ru/upload/iblock/23b/shmelev_gennadii_nikolaevich.jpg"
+  },
+  {
+    "name": "Юзмухаметов Айнур Мансурович",
+    "link": "https://www.kgasu.ru/upload/iblock/89e/yuzmukhametov_ainur_mansurovich.jpg"
+  },
+  {
+    "name": "Ягунд Эдуард Михайлович",
+    "link": "https://www.kgasu.ru/upload/iblock/ad5/yagund_yeduard_mikhailovich.jpg"
+  },
+  {
+    "name": "Якупов Самат Нухович",
+    "link": "https://www.kgasu.ru/upload/iblock/c84/yakupov_samat_nukhovich.jpg"
+  },
+  {
+    "name": "Яруллина Ляйля Ринатовна",
+    "link": "https://www.kgasu.ru/upload/iblock/fb7/yarullina_lyailya_rinatovna.jpg"
   }
 ]

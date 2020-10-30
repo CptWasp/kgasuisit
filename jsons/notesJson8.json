@@ -1,33 +1,5 @@
 [
   {
-    "name": "Карпова Ирина Викторовна",
-    "link": "https://www.kgasu.ru/upload/iblock/2d4/karpova_irina_viktorovna.jpg"
-  },
-  {
-    "name": "Кашина Светлана Георгиевна",
-    "link": "https://www.kgasu.ru/upload/iblock/78e/kashina_svetlana_georgievna.jpg"
-  },
-  {
-    "name": "Каюмов Рашит Абдулхакович",
-    "link": "https://www.kgasu.ru/upload/iblock/434/kayumov_rashit_abdulkhakovich.jpg"
-  },
-  {
-    "name": "Киносьян Наталья Станиславовна",
-    "link": "https://www.kgasu.ru/upload/iblock/1ef/kinosyan_natalya_stanislavovna.jpg"
-  },
-  {
-    "name": "Кисельников Александр Сергеевич",
-    "link": "https://www.kgasu.ru/upload/iblock/fb4/kiselnikov_aleksandr_sergeevich.jpg"
-  },
-  {
-    "name": "Клещева Ольга Альбертовна",
-    "link": "https://www.kgasu.ru/upload/iblock/f5d/klescheva_olga_albertovna.jpg"
-  },
-  {
-    "name": "Коклюгин Алексей Викторович",
-    "link": "https://www.kgasu.ru/upload/iblock/32a/koklyugin_aleksei_viktorovich.jpg"
-  },
-  {
     "name": "Коклюгина Людмила Алексеевна",
     "link": "https://www.kgasu.ru/upload/iblock/7c7/koklyugina_lyudmila_alekseevna.jpg"
   },
@@ -41,7 +13,7 @@
   },
   {
     "name": "Коновалова Елена Николаевна",
-    "link": "https://www.kgasu.ru/upload/iblock/8af/konovalova_elena_nikolaevna.jpg"
+    "link": "https://www.kgasu.ru/upload/iblock/5fe/konovalova_elena_nikolaevna.jpg"
   },
   {
     "name": "Кордончик Давид Михайлович",
@@ -64,10 +36,6 @@
     "link": "https://www.kgasu.ru/upload/iblock/b9f/krainov_dmitrii_vladimirovich.jpg"
   },
   {
-    "name": "Красиникова Наталья Михайловна",
-    "link": "https://www.kgasu.ru/upload/iblock/dde/krasinikova_natalya_mikhailovna.jpg"
-  },
-  {
     "name": "Краснобаев Иван Васильевич",
     "link": "https://www.kgasu.ru/upload/iblock/6d0/krasnobaev_ivan_vasilevich.jpg"
   },
@@ -78,5 +46,37 @@
   {
     "name": "Кузнецов Иван Леонидович",
     "link": "https://www.kgasu.ru/upload/iblock/3ed/kuznetsov_ivan_leonidovich.jpg"
+  },
+  {
+    "name": "Кузнецова Галина Васильевна",
+    "link": "https://www.kgasu.ru/upload/iblock/e6e/kuznetsova_galina_vasilevna.jpg"
+  },
+  {
+    "name": "Кузнецова Ильвира Илдусовна",
+    "link": "https://www.kgasu.ru/upload/iblock/13c/kuznetsova_ilvira_ildusovna.jpg"
+  },
+  {
+    "name": "Кузнецова Любовь Михайловна",
+    "link": "https://www.kgasu.ru/upload/iblock/603/kuznetsova_lyubov_mikhailovna.jpg"
+  },
+  {
+    "name": "Кулеева Ляйля Муратовна",
+    "link": "https://www.kgasu.ru/upload/iblock/cbf/kuleeva_lyailya_muratovna.jpg"
+  },
+  {
+    "name": "Кульков Андрей Александрович",
+    "link": "https://www.kgasu.ru/upload/iblock/d82/kulkov_andrei_aleksandrovich.jpg"
+  },
+  {
+    "name": "Куприянов Валерий Николаевич",
+    "link": "https://www.kgasu.ru/upload/iblock/21c/kupriyanov_valerii_nikolaevich.jpg"
+  },
+  {
+    "name": "Курзина Ирина Михайловна",
+    "link": "https://www.kgasu.ru/upload/iblock/be1/kurzina_irina_mikhailovna.jpg"
+  },
+  {
+    "name": "Лавирко Юрий Васильевич",
+    "link": "https://www.kgasu.ru/upload/iblock/1de/lavirko_yurii_vasilevich.jpg"
   }
 ]

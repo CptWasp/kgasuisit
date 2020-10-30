@@ -1,53 +1,5 @@
 [
   {
-    "name": "Саляхова Маргарита Ракифовна",
-    "link": "https://www.kgasu.ru/upload/iblock/7c7/salyakhova_margarita_rakifovna.jpg"
-  },
-  {
-    "name": "Саляхутдинов Ришат Назахович",
-    "link": "https://www.kgasu.ru/upload/iblock/b84/salyakhutdinov_rishat_nazakhovich.jpg"
-  },
-  {
-    "name": "Саттарова Татьяна Дмитриевна",
-    "link": "https://www.kgasu.ru/upload/iblock/ca0/sattarova_tatyana_dmitrievna.jpg"
-  },
-  {
-    "name": "Сафин Даниль Ринафович",
-    "link": "https://www.kgasu.ru/upload/iblock/bd1/safin_danil_rinafovich.jpg"
-  },
-  {
-    "name": "Сафин Раис Семигуллович",
-    "link": "https://www.kgasu.ru/upload/iblock/c48/safin_rais_semigullovich.jpg"
-  },
-  {
-    "name": "Сафина Айнур Маратовна",
-    "link": "https://www.kgasu.ru/upload/iblock/424/safina_ainur_maratovna.jpg"
-  },
-  {
-    "name": "Сафина Роза Саимовна",
-    "link": "https://www.kgasu.ru/upload/iblock/37a/safina_roza_saimovna.jpg"
-  },
-  {
-    "name": "Сафиуллин Ринат Габдуллович",
-    "link": "https://www.kgasu.ru/upload/iblock/d43/safiullin_rinat_gabdullovich.jpg"
-  },
-  {
-    "name": "Сафиуллин Фанис Фагимуллович",
-    "link": "https://www.kgasu.ru/upload/iblock/545/safiullin_fanis_fagimullovich.jpg"
-  },
-  {
-    "name": "Сахапов Рустэм Лукманович",
-    "link": "https://www.kgasu.ru/upload/iblock/9be/sakhapov_rustyem_lukmanovich.jpg"
-  },
-  {
-    "name": "Селюгин Александр Сергеевич",
-    "link": "https://www.kgasu.ru/upload/iblock/b2a/selyugin_aleksandr_sergeevich.jpg"
-  },
-  {
-    "name": "Сибгатуллина Лейсан Шамилевна",
-    "link": "https://www.kgasu.ru/upload/iblock/a52/sibgatullina_leisan_shamilevna.jpg"
-  },
-  {
     "name": "Сиразетдинов Рустем Маратович",
     "link": "https://www.kgasu.ru/upload/iblock/99e/sirazetdinov_rustem_maratovich.jpg"
   },
@@ -57,7 +9,7 @@
   },
   {
     "name": "Смирнов Денис Сергеевич",
-    "link": "https://www.kgasu.ru/upload/iblock/64b/smirnov_denis_sergeevich.jpg"
+    "link": "https://www.kgasu.ru/upload/iblock/2e7/smirnov_denis_sergeevich.jpg"
   },
   {
     "name": "Смолова Марина Викторовна",
@@ -73,10 +25,58 @@
   },
   {
     "name": "Степанов Сергей Викторович",
-    "link": "https://www.kgasu.ru/upload/iblock/273/stepanov_sergei_viktorovich.jpg"
+    "link": "https://www.kgasu.ru/upload/iblock/023/stepanov_sergei_viktorovich.jpg"
   },
   {
     "name": "Степанчук Алена Валентиновна",
     "link": "https://www.kgasu.ru/upload/iblock/496/stepanchuk_alena_valentinovna.jpg"
+  },
+  {
+    "name": "Страхов Дмитрий Евгеньевич",
+    "link": "https://www.kgasu.ru/upload/iblock/363/strakhov_dmitrii_evgenevich.jpg"
+  },
+  {
+    "name": "Строганов Виктор Федорович",
+    "link": "https://www.kgasu.ru/upload/iblock/070/stroganov_viktor_fedorovich.jpg"
+  },
+  {
+    "name": "Сулейманов Альфред Мидхатович",
+    "link": "https://www.kgasu.ru/upload/iblock/4da/suleimanov_alfred_midkhatovich.jpg"
+  },
+  {
+    "name": "Сулейманова Елена Дмитриевна",
+    "link": "https://www.kgasu.ru/upload/iblock/268/suleimanova_elena_dmitrievna.jpg"
+  },
+  {
+    "name": "Сундуков Виктор Иванович",
+    "link": "https://www.kgasu.ru/upload/iblock/818/sundukov_viktor_ivanovich.jpg"
+  },
+  {
+    "name": "Сундукова Елена Николаевна",
+    "link": "https://www.kgasu.ru/upload/iblock/708/sundukova_elena_nikolaevna.jpg"
+  },
+  {
+    "name": "Сучкова Татьяна Владимировна",
+    "link": "https://www.kgasu.ru/upload/iblock/b8b/suchkova_tatyana_vladimirovna.jpg"
+  },
+  {
+    "name": "Тазиева Зарина Наильевна",
+    "link": "https://www.kgasu.ru/upload/iblock/683/tazieva_zarina_nailevna.jpg"
+  },
+  {
+    "name": "Тартыгашева Анастасия Михайловна",
+    "link": "https://www.kgasu.ru/upload/iblock/997/tartygasheva_anastasiya_mikhailovna.jpg"
+  },
+  {
+    "name": "Терентьев Андрей Григорьевич",
+    "link": "https://www.kgasu.ru/upload/iblock/3d9/terentev_andrei_grigorevich.jpg"
+  },
+  {
+    "name": "Тимергалиев Самат Низаметдинович",
+    "link": "https://www.kgasu.ru/upload/iblock/bef/timergaliev_samat_nizametdinovich.jpg"
+  },
+  {
+    "name": "Токарева Гульсинэ Шавкатовна",
+    "link": "https://www.kgasu.ru/upload/iblock/5f3/tokareva_gulsinye_shavkatovna.jpg"
   }
 ]

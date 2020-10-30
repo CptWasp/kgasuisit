@@ -1,25 +1,5 @@
 [
   {
-    "name": "Вахитова Диляра Касимовна",
-    "link": "https://www.kgasu.ru/upload/iblock/1fa/vakhitova_dilyara_kasimovna.jpg"
-  },
-  {
-    "name": "Вахтель Роман Ричардович",
-    "link": "https://www.kgasu.ru/upload/iblock/a4e/vakhtel_roman_richardovich.jpg"
-  },
-  {
-    "name": "Вдовин Евгений Анатольевич",
-    "link": "https://www.kgasu.ru/upload/iblock/e53/vdovin_evgenii_anatolevich.jpg"
-  },
-  {
-    "name": "Вильданов Ильфак Элфикович",
-    "link": "https://www.kgasu.ru/upload/iblock/934/vildanov_ilfak_yelfikovich.jpg"
-  },
-  {
-    "name": "Вирцев Михаил Юрьевич",
-    "link": "https://www.kgasu.ru/upload/iblock/6b4/virtsev_mikhail_yurevich.jpg"
-  },
-  {
     "name": "Володин Юрий Гурьянович",
     "link": "https://www.kgasu.ru/upload/iblock/e3e/volodin_yurii_guryanovich.jpg"
   },
@@ -29,7 +9,7 @@
   },
   {
     "name": "Габдрафиков Рустам Раилевич",
-    "link": "https://www.kgasu.ru/upload/iblock/872/gabdrafikov_rustam_railevich.jpg"
+    "link": "https://www.kgasu.ru/upload/iblock/e41/gabdrafikov_rustam_railevich.jpg"
   },
   {
     "name": "Габдуллин Талгат Ривгатович",
@@ -42,6 +22,10 @@
   {
     "name": "Гайнанова Диляра Рамилевна",
     "link": "https://www.kgasu.ru/upload/iblock/76f/gainanova_dilyara_ramilevna.jpg"
+  },
+  {
+    "name": "Гайнетдинов Ришат Габдулхаевич",
+    "link": "https://www.kgasu.ru/upload/iblock/e86/gainetdinov_rishat_gabdulkhaevich.jpg"
   },
   {
     "name": "Гайнуллина Лилиана Файберговна",
@@ -57,7 +41,7 @@
   },
   {
     "name": "Галимова Лилия Рифатовна",
-    "link": "https://www.kgasu.ru/upload/iblock/046/galimova_liliya_rifatovna.jpg"
+    "link": "https://www.kgasu.ru/upload/iblock/a80/galimova_liliya_rifatovna.jpg"
   },
   {
     "name": "Галиуллина Айгуль Альфритовна",
@@ -65,7 +49,7 @@
   },
   {
     "name": "Гареев Ильнур Фаилович",
-    "link": "https://www.kgasu.ru/upload/iblock/41a/gareev_ilnur_failovich.jpg"
+    "link": "https://www.kgasu.ru/upload/iblock/779/gareev_ilnur_failovich.jpg"
   },
   {
     "name": "Гарифуллин Руслан Шамилевич",
@@ -78,5 +62,21 @@
   {
     "name": "Гафурова Светлана Валерьевна",
     "link": "https://www.kgasu.ru/upload/iblock/35b/gafurova_svetlana_valerevna.jpg"
+  },
+  {
+    "name": "Гиззятов Ренат Фаритович",
+    "link": "https://www.kgasu.ru/upload/iblock/fae/gizzyatov_renat_faritovich.jpg"
+  },
+  {
+    "name": "Гильфанов Рашит Махмутович",
+    "link": "https://www.kgasu.ru/upload/iblock/995/gilfanov_rashit_makhmutovich.jpg"
+  },
+  {
+    "name": "Гимадиева Лилия Шарифзяновна",
+    "link": "https://www.kgasu.ru/upload/iblock/130/gimadieva_liliya_sharifzyanovna.jpg"
+  },
+  {
+    "name": "Гимранов Линур Рафаилевич",
+    "link": "https://www.kgasu.ru/upload/iblock/a86/gimranov_linur_rafailevich.jpg"
   }
 ]
