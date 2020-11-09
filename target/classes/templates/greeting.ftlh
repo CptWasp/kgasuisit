@@ -2,6 +2,11 @@
 <@c.page>
 <#include "parts/navbar.ftlh">
 
+
+
+
+
+
 <!--хедер-->
 <div class="mt-3 container-fluid bg-black shadow">
         <div class="row justify-content-center">
