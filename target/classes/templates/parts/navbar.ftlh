@@ -27,7 +27,11 @@
             <li>
                 <a class="nav-link" href="#">Проекты</a>
             </li>
-
+            <#if user??>
+            <li class="nav-item">
+                <a class="nav-link" href="/user-messages/${currentUserId}">Мои сообщения</a>
+            </li>
+            </#if>
 
 
             <#if isAdmin>
