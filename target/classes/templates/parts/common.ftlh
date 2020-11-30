@@ -17,11 +17,12 @@
     <title>H!</title>
 </head>
 <body>
+
 <div class="popub-block">
     <a href="https://www.instagram.com/blrmyfc/">designer/backend/frontend: Айзат Ашрафуллин</a>
 
 </div>
-
+<#include "navbar.ftlh">
 
 <#nested>
 

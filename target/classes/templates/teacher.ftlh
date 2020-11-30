@@ -23,7 +23,6 @@
     <title>Отзывы о ${teacher.teachername}</title>
 </head>
 <body>
-<#include "parts/navbar.ftlh">
 <br>
 <br>
 

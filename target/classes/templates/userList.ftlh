@@ -1,6 +1,6 @@
 <#import "parts/common.ftlh" as c>
 <@c.page>
-<#include "parts/navbar.ftlh">
+
 <br>
 <h4>Список пользователей</h4>
 
