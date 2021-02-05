@@ -1,4 +1,3 @@
-<!doctype html>
 <html lang="ru">
 <head>
     <!-- Required meta tags -->
@@ -23,6 +22,7 @@
     <title>Отзывы о ${teacher.teachername}</title>
 </head>
 <body>
+<#include "parts/navbar.ftlh">
 <br>
 <br>
 
@@ -31,7 +31,7 @@
 <div class="container">
     <div class="row">
         <div class="col-lg-3 col-md-3 col-sm-12 col-12 mt-4">
-            <div class="img-ava" style="background-image: url(${teacher.imglink});"></div>
+            <div class="img-ava" style="background-image: url('/img/${teacher.imglink}');"></div>
             <br>
             <p class="ava-rating"><i class="fa fa-star"></i> Рейтинг: ${middle}/5,0</p>
 
@@ -93,19 +93,9 @@
             </div>
 
 
-
-
         </div>
     </div>
 </div>
-
-
-
-
-
-
-
-
 
 
 
@@ -151,7 +141,6 @@
         .img-ava{
             height: 200px;
             width: 200px;
-            background-image: url(/uploads/agisheva_sufiya_timurovna.jpg);
             background-size: 100%;
             border-radius: 50%;
             background-position: center center; /* Положение фона */
